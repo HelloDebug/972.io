@@ -1,0 +1,153 @@
+body {
+  background-color: rgb(227, 134, 143);
+  font: normal 1.5em/1.58 Avenir-Book;
+  color: rgb(255, 255, 255);
+}
+
+.contact {
+  float: right;
+  width: 33.5872395833%;
+  height: 40px;
+  margin: 19px 10% 0 0;
+}
+
+.container {
+  width: 100%;
+  height: 562px;
+  margin: 0 auto;
+}
+
+.created-by {
+  float: right;
+  width: 100%;
+  margin-top: 11px;
+  font-size: 0.583em;
+  line-height: 1.38;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.description {
+  width: 100%;
+  min-height: 95px;
+  margin: 24px auto 0;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.description p {
+  margin-bottom: 0.1em;
+}
+
+.headline {
+  width: 59.25%;
+  min-height: 82px;
+  margin: 0 auto;
+  font: 1.958em/1.38 Avenir-Black;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  float: left;
+  width: 24.7249348958%;
+  height: 40px;
+  margin: 19px 0 0 10%;
+}
+
+.text {
+  width: 100%;
+  height: 407px;
+  margin: 82px auto 0;
+}
+
+._972 {
+  float: left;
+  width: 88.3435582822%;
+  margin-top: 3px;
+  font: 1em/1.38 Avenir-Black;
+  color: rgb(255, 255, 255);
+}
+
+._button {
+  display: block;
+  width: 226px;
+  height: 60px;
+  margin: 13px auto 0;
+  border-radius: 3px;
+  background-color: rgb(125, 207, 182);
+  font: 0.917em/1.38 Avenir-Black;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.container ._container {
+  width: 100%;
+  height: 73px;
+  margin: 0 auto;
+}
+
+@media(max-width: 1000px) {
+  body {
+    font-size: 1.375em;
+  }
+
+  .contact .created-by {
+    font-size: 0.636em;
+  }
+
+  .text .description {
+    margin-top: 23px;
+    font-size: 22px;
+  }
+
+  .text .headline {
+    width: 67.25%;
+    font-size: 1.818em;
+  }
+
+  .logo ._972 {
+    font-size: 1.091em;
+  }
+
+  .text ._button {
+    margin-top: 0;
+    font-size: 1em;
+  }
+}
+
+@media(max-width: 568px) {
+  body {
+    font-size: 1.063em;
+  }
+
+  .contact .created-by {
+    font-size: 0.824em;
+  }
+
+  .text .description {
+    float: left;
+    clear: both;
+    width: 79.9295774647%;
+    min-height: 79px;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 10.03246%;
+    font-size: 17px;
+  }
+
+  .text .headline {
+    width: 80%;
+    font-size: 2.059em;
+  }
+
+  .logo ._972 {
+    font-size: 1.412em;
+  }
+
+  .text ._button {
+    margin-top: 102px;
+    font-size: 1.294em;
+  }
+}
