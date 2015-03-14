@@ -57,9 +57,8 @@ body {
 }
 
 .text {
-  width: 100%;
-  height: 407px;
-  margin: 82px auto 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 ._972 {
@@ -86,10 +85,26 @@ body {
   background-color: #73c1a9;
 }
 
+._text {
+  width: 12%;
+  min-height: 20px;
+  margin-top: 11px;
+  font: 400 0.667em/1.38 Avenir;
+  text-align: center;
+  text-decoration: underline;
+  color: #fbbcb4;
+}
+
 .container ._container {
   width: 100%;
   height: 73px;
   margin: 0 auto;
+}
+
+.text-1 {
+  width: 100%;
+  height: 376px;
+  margin-top: 102px;
 }
 
 @media(max-width: 1000px) {
@@ -112,13 +127,22 @@ body {
     font-size: 1.818em;
   }
 
+  .text .text {
+    margin-top: 14px;
+    font-size: 0.727em;
+  }
+
   .logo ._972 {
     font-size: 1.091em;
   }
 
   .text ._button {
-    margin-top: 0;
+    margin-top: 1px;
     font-size: 1em;
+  }
+
+  .container .text-1 {
+    margin-top: 82px;
   }
 }
 
@@ -140,12 +164,8 @@ body {
   }
 
   .text .description {
-    float: left;
-    clear: both;
     min-height: 79px;
     margin-top: 20px;
-    margin-right: 0;
-    margin-left: 10.03246%;
     font-size: 17px;
   }
 
@@ -154,12 +174,17 @@ body {
     font-size: 2.059em;
   }
 
+  .text .text {
+    margin-top: 11px;
+    font-size: 0.941em;
+  }
+
   .logo ._972 {
     font-size: 1.412em;
   }
 
   .text ._button {
-    margin-top: 102px;
+    margin-top: 3px;
     font-size: 1.294em;
   }
 }
@@ -187,19 +212,19 @@ body {
     margin-left: 9.99583%;
   }
 
-  .container .text {
-    margin-top: 62px;
-  }
-
   .text .description {
     margin-top: 10px;
-    margin-left: 10%;
     font-size: 16px;
   }
 
   .text .headline {
     width: 80.8%;
     font-size: 1.563em;
+  }
+
+  .text .text {
+    margin-top: 15px;
+    font-size: 1em;
   }
 
   .logo ._972 {
@@ -209,7 +234,11 @@ body {
   .text ._button {
     width: 80%;
     height: 51px;
-    margin-top: 135px;
+    margin-top: 23px;
     font-size: 1.25em;
+  }
+
+  .container .text-1 {
+    margin-top: 62px;
   }
 }
