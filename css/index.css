@@ -9,6 +9,19 @@ body {
   color: rgb(255, 255, 255);
 }
 
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.text a {
+  color: #fbbcb4;
+}
+
+button {
+  text-decoration: none;
+}
+
 .contact {
   float: right;
   width: 33.5872395833%;
