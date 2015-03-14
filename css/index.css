@@ -161,11 +161,16 @@ body {
 }
 
 @media(max-width: 385px) {
+  ._button:hover {
+    background-color: #55a98f;
+  }
+
   body {
     font-size: 1em;
   }
 
   .contact .created-by {
+    margin-top: 13px;
     font-size: 0.875em;
   }
 
@@ -183,14 +188,14 @@ body {
   }
 
   .text .description {
-    margin-top: 13px;
-    margin-left: 10.01667%;
+    margin-top: 10px;
+    margin-left: 10%;
     font-size: 16px;
   }
 
   .text .headline {
     width: 80.8%;
-    font-size: 1.688em;
+    font-size: 1.563em;
   }
 
   .logo ._972 {
