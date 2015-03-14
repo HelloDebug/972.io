@@ -8,7 +8,7 @@ body {
   float: right;
   width: 33.5872395833%;
   height: 40px;
-  margin: 19px 10% 0 0;
+  margin: 26px 10% 0 0;
 }
 
 .container {
@@ -44,7 +44,7 @@ body {
   width: 59.25%;
   min-height: 82px;
   margin: 0 auto;
-  font: 1.958em/1.38 Avenir-Black;
+  font: 1.958em/1.28 Avenir-Black;
   text-align: center;
   color: rgb(255, 255, 255);
 }
@@ -53,7 +53,7 @@ body {
   float: left;
   width: 24.7249348958%;
   height: 40px;
-  margin: 19px 0 0 10%;
+  margin: 26px 0 0 10%;
 }
 
 .text {
@@ -97,14 +97,14 @@ body {
 
 .container ._container {
   width: 100%;
-  height: 73px;
+  height: 85px;
   margin: 0 auto;
 }
 
 .text-1 {
   width: 100%;
   height: 376px;
-  margin-top: 102px;
+  margin-top: 90px;
 }
 
 @media(max-width: 1000px) {
@@ -114,6 +114,11 @@ body {
 
   .contact .created-by {
     font-size: 0.636em;
+  }
+
+  .container .contact,
+  .container .logo {
+    margin-top: 19px;
   }
 
   .text .description {
@@ -205,11 +210,11 @@ body {
 
   .container .contact {
     width: 44.5333333333%;
-    margin-right: 9.8666699999%;
+    margin-right: 9.8539%;
   }
 
   .container .logo {
-    margin-left: 9.99583%;
+    margin-left: 9.98377%;
   }
 
   .text .description {
