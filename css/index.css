@@ -28,7 +28,7 @@ body {
 }
 
 .description {
-  width: 100%;
+  width: 80%;
   min-height: 95px;
   margin: 24px auto 0;
   font-size: 1em;
@@ -98,6 +98,7 @@ body {
   }
 
   .text .description {
+    width: 79.9295774647%;
     margin-top: 23px;
     font-size: 22px;
   }
@@ -126,10 +127,17 @@ body {
     font-size: 0.824em;
   }
 
+  .container .contact {
+    margin-right: 9.99945%;
+  }
+
+  .container .logo {
+    margin-left: 9.99945%;
+  }
+
   .text .description {
     float: left;
     clear: both;
-    width: 79.9295774647%;
     min-height: 79px;
     margin-top: 20px;
     margin-right: 0;
@@ -149,5 +157,50 @@ body {
   .text ._button {
     margin-top: 102px;
     font-size: 1.294em;
+  }
+}
+
+@media(max-width: 375px) {
+  body {
+    font-size: 1em;
+  }
+
+  .contact .created-by {
+    font-size: 0.875em;
+  }
+
+  .container .contact {
+    width: 44.5333333333%;
+    margin-right: 9.8666699999%;
+  }
+
+  .container .logo {
+    margin-left: 9.99583%;
+  }
+
+  .container .text {
+    margin-top: 62px;
+  }
+
+  .text .description {
+    margin-top: 13px;
+    margin-left: 10.01667%;
+    font-size: 16px;
+  }
+
+  .text .headline {
+    width: 80.8%;
+    font-size: 1.688em;
+  }
+
+  .logo ._972 {
+    font-size: 1.5em;
+  }
+
+  .text ._button {
+    width: 80%;
+    height: 51px;
+    margin-top: 135px;
+    font-size: 1.25em;
   }
 }
