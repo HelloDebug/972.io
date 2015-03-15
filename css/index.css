@@ -57,8 +57,10 @@ button {
 .description p {
   margin-bottom: 0.1em;
   background:url(../slack.svg) 0 0 no-repeat;
-  background-position:0 0 20px;
+  background-position: 0 8px;
   display:inline;
+  padding-left: 21px;
+
 }
 
 .headline {
@@ -190,7 +192,7 @@ button {
   }
 
   .text .description {
-    min-height: 79px;
+    min-height: 40px;
     margin-top: 20px;
     font-size: 17px;
   }
