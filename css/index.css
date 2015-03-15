@@ -47,7 +47,7 @@ button {
 
 .description {
   width: 80%;
-  min-height: 95px;
+  min-height: 50px;
   margin: 24px auto 0;
   font-size: 1em;
   text-align: center;
