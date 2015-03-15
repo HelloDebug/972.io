@@ -57,7 +57,7 @@ button {
 .description p {
   margin-bottom: 0.1em;
   background:url(../slack.svg) 0 0 no-repeat;
-  background-position: 0 8px;
+  background-position: 0 7px;
   display:inline;
   padding-left: 21px;
 
