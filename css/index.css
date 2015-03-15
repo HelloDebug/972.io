@@ -104,12 +104,11 @@ button {
 }
 
 ._text {
-  width: 12%;
+  width: 50%;
   min-height: 20px;
   margin-top: 8px;
-  font: 400 0.667em/1.38 Avenir;
+  font: 400 0.567em/1.38 Avenir;
   text-align: center;
-  text-decoration: underline;
   color: #fbbcb4;
 }
 
@@ -227,7 +226,7 @@ button {
   }
 
   .container .contact {
-    width: 44.5333333333%;
+    width: 66.5333333333%;
     margin-right: 9.8539%;
   }
 
